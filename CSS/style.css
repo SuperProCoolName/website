@@ -1,15 +1,36 @@
 * {
     scroll-behavior: smooth;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 10px;
+    font-size: 20px;
 }
-.font-24 {
-    font-size: 48px;
+header {
+    padding: 5px;
+    text-align: center;
+    background-color: #24292f;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
-footer {
-    display: flex;
-    margin-top: 2000px;
-    background-color: aqua;
+.no-dots {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
-#contacts {
-    margin: auto;
+header > ul > li {
+    display: inline;
+}
+header > ul > li > a {
+    color: white;
+    text-decoration: none;
+}
+header > ul > li > a:hover {
+    color: gray;
+}
+#center-contacts {
+    text-align: center;
+    color: white;
+    background-color: #24292f;
 }
