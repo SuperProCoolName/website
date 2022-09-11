@@ -5,6 +5,7 @@
     font-size: 20px;
 }
 header {
+    display: flex;
     padding: 5px;
     text-align: center;
     background-color: #24292f;
@@ -14,23 +15,40 @@ header {
     left: 0;
     right: 0;
 }
+.align-left {
+    padding-left: 40px;
+    width: 50%;
+    text-align: left;
+}
+.align-right {
+    padding-right: 40px;
+    width: 50%;
+    text-align: right;
+}
 .no-dots {
     list-style-type: none;
     padding: 0;
-    margin: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 10px;
 }
-header > ul > li {
+ul > li {
     display: inline;
+    margin: 20px;
 }
-header > ul > li > a {
+ul > li > a {
     color: white;
     text-decoration: none;
 }
-header > ul > li > a:hover {
+ul > li > a:hover {
     color: gray;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 #center-contacts {
     text-align: center;
-    color: white;
-    background-color: #24292f;
 }
