@@ -8,4 +8,4 @@ This is my website for university that I want to show to my professor.
 
 ## Web-page
 
-Use the button on the right or [this](https://superprocoolname.github.io/website/) link to check out webpage.
+Use the `About` link, check `Environments` button on the right or directly use [this](https://superprocoolname.github.io/website/) link to check out webpage.
