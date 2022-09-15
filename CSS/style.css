@@ -1,3 +1,6 @@
+:root {
+    --dark-blue: #24292f;
+}
 * {
     scroll-behavior: smooth;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -8,7 +11,7 @@ header {
     display: flex;
     padding: 5px;
     text-align: center;
-    background-color: #24292f;
+    background-color: var(--dark-blue);
     color: white;
     position: fixed;
     top: 0;
@@ -32,6 +35,9 @@ header {
     margin-bottom: 0;
     margin-right: 10px;
 }
+a:hover {
+    transition: all .3s ease-out;
+}
 ul > li {
     display: inline;
     margin: 20px;
@@ -49,6 +55,13 @@ ul > li > a:hover {
     margin-right: auto;
     width: 50%;
 }
+.center-fig {
+    text-align: center;
+}
 #center-contacts {
     text-align: center;
+}
+fieldset {
+    background-color: var(--dark-blue);
+    color: white;
 }
