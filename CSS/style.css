@@ -1,22 +1,32 @@
 :root {
     --dark-blue: #24292f;
+    --blue: #333a42;
 }
 * {
     scroll-behavior: smooth;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding-top: 10px;
     font-size: 20px;
 }
 header {
     display: flex;
     padding: 5px;
-    text-align: center;
     background-color: var(--dark-blue);
     color: white;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
+}
+header sub {
+    font-size: 15px;
+}
+.top-lorem {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px auto 50px auto;
+    padding: 10px;
+    background-color: var(--blue);
+    color: white;
 }
 .align-left {
     padding-left: 40px;
@@ -36,7 +46,7 @@ header {
     margin-right: 10px;
 }
 a:hover {
-    transition: all .3s ease-out;
+    transition: all .5s ease-out;
 }
 ul > li {
     display: inline;
@@ -49,11 +59,11 @@ ul > li > a {
 ul > li > a:hover {
     color: gray;
 }
-.center {
-    display: block;
+.center-img {
+    display: flex;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 1280px;
 }
 .center-fig {
     text-align: center;
@@ -62,6 +72,6 @@ ul > li > a:hover {
     text-align: center;
 }
 fieldset {
-    background-color: var(--dark-blue);
+    background-color: var(--blue);
     color: white;
 }
